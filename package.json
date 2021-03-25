@@ -1,7 +1,7 @@
 {
   "private": false,
-  "name": "darlan-teste-react-webpack",
-  "version": "1.0.9",
+  "name": "npm-react-boilerplate",
+  "version": "1.0.0",
   "main": "index.js",
   "typings": "index.d.ts",
   "license": "MIT",
