@@ -1,7 +1,11 @@
 import React from 'react';
 
-const Button = (): React.ReactElement => (
-    <button>teste</button>
+export interface ButtonProps {
+    label: string;
+}
+
+const Button = ({ label }:ButtonProps): React.ReactElement => (
+    <button>{label}</button>
 )
 
 export default Button;
