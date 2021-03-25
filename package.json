@@ -1,0 +1,22 @@
+{
+  "private": false,
+  "name": "darlan-teste-react-webpack",
+  "version": "1.0.9",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "postbuild": "copy package.json lib",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
