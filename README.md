@@ -19,6 +19,7 @@ to make it happen you'll have to do the following steps:
 
 In your package root:
 
+* run `(yarn|npm run) build`
 * run `cd lib`
 * run `npm link`
 
